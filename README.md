@@ -1,13 +1,12 @@
-# Firmware for AArch64 Surface Devices
+# Firmware for AArch64 Xiaomi Book 12.4
 
-Firmware and firmware-related helpers for AArch64 based Microsoft Surface devices.
-Currently, supports the Surface Pro X SQ1 and SQ2.
+Firmware and firmware-related helpers for Xiaomi Book 12.4/Xiaomi Book S 12.4.
 
 
 ## Obtaining Firmware
 
 To obtain a full firmware package yourself, you need access to either a (full) Windows (recovery) image or a Windows installation.
-Recovery images can be obtained from https://support.microsoft.com/en-us/surface-recovery-image.
+Recovery images can be obtained from https://www.mi.com/service/notebook/drivers/A51.
 The full firmware package can then be obtained via `./scripts/getfw.py`.
 In particular, run
 ```sh
@@ -28,7 +27,7 @@ after cloning.
 
 ## Licensing
 
-We do not have an explicit re-distribution license for some of the firmware files provided here, in particular the ones specific to the Microsoft Surface Pro X.
-These rights lie by Microsoft and/or Qualcomm.
-However, many of these files are signed in a way that make them usable only on the Surface Pro X.
-The files here are provided exclusively for convenience (especially allowing easy creation of distribution packages) as owners of the Surface Pro X can obtain these themselves via the provided script.
+We do not have an explicit re-distribution license for some of the firmware files provided here, in particular the ones specific to the Xiaomi Book 12.4.
+These rights lie by Xiaomi and/or Qualcomm.
+However, many of these files are signed in a way that make them usable only on the Xiaomi Book 12.4.
+The files here are provided exclusively for convenience (especially allowing easy creation of distribution packages) as owners of the Xiaomi Book 12.4 can obtain these themselves via the provided script.
